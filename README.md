@@ -14,7 +14,6 @@ This script extracts library versions from Python files and `requirements.txt` f
 - Checks if Poetry is installed; prompts user if not.
 - Searches recursively for `.py` files and `requirements.txt` files.
 - Extracts library versions, ignoring built-in modules.
-- Handles special cases like `six.moves` by installing the top-level package.
 - Manages conflicts by prompting the user for overrides.
 
 ## Installation
